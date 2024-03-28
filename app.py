@@ -64,9 +64,9 @@ def main():
         
         # Determine el cumplimiento de la meta
         if is_better_lower == "Menor que la meta":
-            cumplimiento = mean_result <= target
-        else:
             cumplimiento = mean_result >= target
+        else:
+            cumplimiento = mean_result <= target
         
         # Crea el Gauge Chart
         fig_gauge = go.Figure(go.Indicator(
