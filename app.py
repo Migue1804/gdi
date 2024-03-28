@@ -8,7 +8,7 @@ import calendar
 def main():
     st.image("GDI.jpg", width=1050)
     st.sidebar.title("Instrucciones")
-    st.sidebar.write("¡Bienvenido a la aplicación de gerenciamiento diario PQCDS!")
+    st.sidebar.write("¡Bienvenido a la aplicación de gerenciamiento diario!")
     st.sidebar.markdown("Por favor sigue las instrucciones paso a paso para utilizar la herramienta correctamente.")
     
     st.sidebar.markdown("### Pasos:")
